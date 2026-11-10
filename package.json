@@ -1,0 +1,21 @@
+{
+  "name": "studio-shop",
+  "version": "1.0.0",
+  "description": "Digital portfolio and online shop with an admin dashboard (GCash, Maya, MariBank manual verification).",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.0.0",
+    "express-rate-limit": "^8.0.0",
+    "express-session": "^1.18.0",
+    "helmet": "^8.0.0",
+    "multer": "^2.0.0"
+  }
+}
